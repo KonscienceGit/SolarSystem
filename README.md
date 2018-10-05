@@ -30,10 +30,10 @@ I will also try to make my very own visualizer, as this one use some legacy code
 ## Technologies used
 
 * Language:
-:  C++
+>   C++
 * Framework:
-:  Qt4 (Qt5 for current build)
+>   Qt4 (Qt5 for current build)
 * Graphic Standard and API:
-:  OpenGL
+>   OpenGL
 * Graphic library:
-:  Glut
+>   Glut
