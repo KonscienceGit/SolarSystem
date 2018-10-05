@@ -29,11 +29,11 @@ I will also try to make my very own visualizer, as this one use some legacy code
 
 ## Technologies used
 
-*Language: 
+* Language:
   C++
-*Framework:
+* Framework:
   Qt4 (Qt5 for current build)
-*Graphic Standard and API:
+* Graphic Standard and API:
   OpenGL
-*Graphic library:
+* Graphic library:
   Glut
