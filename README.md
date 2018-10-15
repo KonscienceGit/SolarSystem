@@ -47,3 +47,9 @@ To do so I need a pool of textures, categorize bodies to represent each "major" 
 >   OpenGL
 * Graphic library:
 >   Glut/freeglut
+
+## Credits to
+
+* Bruno Jobard for building the ground of the visualizer with isiviewer, http://bjobard.perso.univ-pau.fr/
+* Solar System Scope team for nearly all of the textures used https://www.solarsystemscope.com/
+* Alpha-Element for the saturn rings texture https://alpha-element.deviantart.com/art/Stock-Image-Saturn-Rings-393767006
