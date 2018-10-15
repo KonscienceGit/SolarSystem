@@ -1,5 +1,6 @@
 # SolarSystem
 A light C++/OpenGL visualizer, able to render a stellar system based on its properties.
+![A quick animation featuring the solar system in motion](https://github.com/KonscienceGit/SolarSystem/blob/master/Screenshoots/SolarSystemGif.gif)
 
 ## How to use
 
