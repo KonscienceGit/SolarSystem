@@ -1,16 +1,24 @@
 # SolarSystem
 A light C++/OpenGL visualizer, able to render a stellar system based on its properties.
 
+## How to use
+
+### For windows
+You can either grab the [Packaged_Release_for_Windows_Jul_18.zip](https://github.com/KonscienceGit/SolarSystem/blob/master/Packaged_Release_for_Windows_Jul_18.zip) in the files above, or you can import the Qt project source code from the [Source_code](https://github.com/KonscienceGit/SolarSystem/tree/master/Source_code) folder of this repo.
+
+### For Debian
+You may grab the source code in the [Old_Ubuntu_source_code_from Jan_2018.tgz](https://github.com/KonscienceGit/SolarSystem/blob/master/Old_Ubuntu_source_code_from%20Jan_2018.tgz) tarball in this repo, it's an older code sir, but it checks out.
+
 
 ## Origin
 
-This program was first a computer-science college project, that somehow evolved into something more concrete, both substantially and emotionally. To make it short, I took so much pleasure making this program, it revealed in me my passion for computer graphics.
+This program was first a computer-science college project, that somehow evolved into something more concrete, both substantially and emotionally. To make it short, I took so much pleasure making this program, it revealed in me my passion for graphics programming.
 
 ## What it is
 
-This is, as of now, a light weight C++ OpenGL visualizer, able to project 3D rendering of the solar system.
+This is, as of now, a light weight C++ OpenGL 3D visualizer, able to project a rendering of the solar system.
 All bodies sizes except the sun are on scale.
-While orbit radiuses are simplified, rotations axes, rotation period, orbit period, orbit tilt and so forth are parameters the visualizer take into account and represent accurately.
+While orbit radiuses are simplified, rotations axes, rotation period, orbit period, orbit tilt and so forth are parameters the visualizer take into account and represent accurately. While the orbit period is correct, it's not fully using Kepler's law and then bodies speed is simply a linear angular speed from the orbit plane pov.
 
 ## Present functions
 
@@ -22,10 +30,11 @@ Toggle rotation indicator on or off with the "i" key.
 
 ## Future functions
 
-I'd like to be able to render any possible star system, with the loading of any kind of text file exchange format (json, csv...)
+* I'd like to be able to render any possible star system, with the loading of any kind of text file exchange format (json, csv...)
 To do so I need a pool of textures, categorize bodies to represent each "major" types of stars, planets, etc
-And maybe a mean of exctracting bodies astronomical properties autonomously (xslt parsing?) from sources.
-I will also try to make my very own visualizer, as this one use some legacy code from my teacher Bruno Jobard, at the university of Pau, France. In doing so I will try and use a recent OpenGL standard (library GLFW for example).
+* A mean of exctracting bodies astronomical properties autonomously (xslt parsing?) from sources.
+* I will also try to make my very own visualizer, as this one use some legacy code from my teacher Bruno Jobard, at the university of Pau, France. In doing so I will try and use a recent OpenGL standard (library GLFW for example).
+* Correctly implement Kepler's law for the bodies motion, or even N-body simulation in a separate option.
 
 ## Technologies used
 
@@ -36,4 +45,4 @@ I will also try to make my very own visualizer, as this one use some legacy code
 * Graphic Standard and API:
 >   OpenGL
 * Graphic library:
->   Glut
+>   Glut/freeglut
