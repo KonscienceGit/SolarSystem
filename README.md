@@ -5,7 +5,9 @@ A light C++/OpenGL visualizer, able to render a stellar system based on its prop
 ## How to use
 
 ### For windows
-You can either grab the [Packaged_Release_for_Windows_Jul_18.zip](https://github.com/KonscienceGit/SolarSystem/blob/master/Packaged_Release_for_Windows_Jul_18.zip) in the files above, or you can import the Qt project source code from the [Source_code](https://github.com/KonscienceGit/SolarSystem/tree/master/Source_code) folder of this repo.
+You can either :
+-clone/download this repo and open the source_files folder as a project into Qt creator 5
+-download the compiled version [on this branch](https://github.com/KonscienceGit/SolarSystem/tree/Windows_compiled_release), it should run right out of the box.
 
 ### For Debian
 You may grab the source code in the [Old_Ubuntu_source_code_from Jan_2018.tgz](https://github.com/KonscienceGit/SolarSystem/blob/master/Old_Ubuntu_source_code_from%20Jan_2018.tgz) tarball in this repo, it's an older code sir, but it checks out.
