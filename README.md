@@ -5,7 +5,7 @@ A light C++/OpenGL visualizer, able to render a stellar system based on its prop
 ## How to use
 
 ### For windows
-You need only to clone this branch, extract the archive and run the .exe, all dependencies are embedded in the branch.
+You need only to clone/download this branch, extract the archive and run the .exe, all dependencies are embedded in the branch.
 
 
 ## Origin
