@@ -7,9 +7,6 @@ A light C++/OpenGL visualizer, able to render a stellar system based on its prop
 ### For windows
 You need only to clone this branch, extract the archive and run the .exe, all dependencies are embedded in the branch.
 
-### For Debian
-ToDo
-
 
 ## Origin
 
