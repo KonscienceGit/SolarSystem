@@ -1,14 +1,14 @@
-# SolarSystem
+# SolarSystem (old Ubuntu/Debian version)
 A light C++/OpenGL visualizer, able to render a stellar system based on its properties.
 ![A quick animation featuring the solar system in motion](https://github.com/KonscienceGit/SolarSystem/blob/master/Screenshoots/SolarSystemGif.gif)
 
 ## How to use
 
 ### For windows
-You can either grab the [Packaged_Release_for_Windows_Jul_18.zip](https://github.com/KonscienceGit/SolarSystem/blob/master/Packaged_Release_for_Windows_Jul_18.zip) in the files above, or you can import the Qt project source code from the [Source_code](https://github.com/KonscienceGit/SolarSystem/tree/master/Source_code) folder of this repo.
+Please see the [master branch](https://github.com/KonscienceGit/SolarSystem).
 
 ### For Debian
-You may grab the source code in the [Old_Ubuntu_source_code_from Jan_2018.tgz](https://github.com/KonscienceGit/SolarSystem/blob/master/Old_Ubuntu_source_code_from%20Jan_2018.tgz) tarball in this repo, it's an older code sir, but it checks out.
+ToDo
 
 
 ## Origin
